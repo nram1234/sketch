@@ -6,7 +6,7 @@ class Sketch extends CustomPainter{
 
     @override
   void paint(Canvas canvas, Size size) {
-     Paint paint=Paint()..color=Colors.cyanAccent
+     Paint paint=Paint()..color=Colors.tealAccent
          ..strokeCap=StrokeCap.round
          ..strokeWidth=4.0;
      for(int i=0;i<ponits.length-1;i++){
